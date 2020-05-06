@@ -53,7 +53,7 @@ def mail(name,id):
     with smtplib.SMTP(host="smtp.gmail.com",port=587) as smtp:
         smtp.ehlo()
         smtp.starttls()
-        smtp.login('portfo.vaibhavhaswani@gmail.com','$#@!portfo!@#$')
+        smtp.login('xyz@gmail.com','pass')
         smtp.send_message(email)
 
 
